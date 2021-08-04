@@ -22,3 +22,12 @@ draft: false
 
 本站打包：
 
+| 包名/软件名    | 是否持续更新中 | 下载链接                                                     |
+| -------------- | -------------- | ------------------------------------------------------------ |
+| 安兔兔评测     | 是             | [https://storage.zhullyb.top/RPMs/com.antutu.benchmark-1.0.0.590-1.x86_64.rpm](https://storage.zhullyb.top/RPMs/com.antutu.benchmark-1.0.0.590-1.x86_64.rpm) |
+| freechat-git   | 是             | [https://storage.zhullyb.top/RPMs/freechat-git-1.0.0.3a8304e-1.x86_64.rpm](https://storage.zhullyb.top/RPMs/freechat-git-1.0.0.3a8304e-1.x86_64.rpm) |
+| 纯纯写作桌面版 | 是             | [https://storage.zhullyb.top/RPMs/purewriter-desktop-bin-1.3.4-2.x86_64.rpm](https://storage.zhullyb.top/RPMs/purewriter-desktop-bin-1.3.4-2.x86_64.rpm) |
+| ttf-monaco     | 是             | [https://storage.zhullyb.top/RPMs/ttf-monaco-6.1-6.noarch.rpm](https://storage.zhullyb.top/RPMs/ttf-monaco-6.1-6.noarch.rpm) |
+| typora         | 是             | [https://storage.zhullyb.top/RPMs/typora-0.11.2-1.x86_64.rpm](https://storage.zhullyb.top/RPMs/typora-0.11.2-1.x86_64.rpm) |
+| wechat-uos     | 否             | [https://zhullyb.lanzoui.com/ikN55rqr7ah](https://zhullyb.lanzoui.com/ikN55rqr7ah) |
+
