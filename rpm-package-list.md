@@ -1,6 +1,7 @@
 ---
 title: "Rpm Package List"
 description: 在这里我们列出了部分常用软件的rpm安装包
+timezone: UTC+8
 date: 2021-08-03
 image: 
 math: 
