@@ -1,13 +1,13 @@
 ---
 title: About
 description: Hugo, the world's fastest framework for building websites
+timezone: UTC+8
 date: '2021-08-03'
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2021-08-03'
 menu:
     main: 
         weight: -90
@@ -16,7 +16,7 @@ menu:
 
 Hello，如果你能看到这段话的话，这意味着我们的fedorafun社区准备开始正式运行了。
 
-这是一个由 @llozi 提出的社区，由[@竹林里有冰](https://blog.zhullyb.top/about)完成初步构建。
+这是一个由 [@llozi](https://blog.llozi.top/) 提出的社区，由[@竹林里有冰](https://blog.zhullyb.top/about)完成初步构建。
 
 我们计划将一部分比较常用的Linux软件打包成rpm，便于下载安装。~~如果可能的话，我们甚至想为它构建一个源，就像[竹林里有冰的私人Arch源](https://arch.zhullyb.top/readme.md)一样。~~
 
