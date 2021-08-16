@@ -28,6 +28,8 @@ Fedora的默认桌面是GNOME，所以作为一名KDE用户，咱心里就得有
 
 ## 换源更新
 
+### 官方源
+
 进入KDE界面了，咱决定换个源。虽然有用户表示Fedora的默认源在国内的速度不算太慢，但咱还是打算换个源，毕竟提升自己体验的同时也可以为国内减少国际出口流量，岂不美哉。
 
 根据sjtug的文档，我们只需要一条简单的sed命令即可完成换源。
@@ -52,6 +54,28 @@ fedora-updates-modular.repo
 sudo sed -e 's/metalink/#metalink/g' -e 's|#baseurl=http://download.example/pub/|baseurl=https://mirror.sjtu.edu.cn/|g' -i.bak /etc/yum.repos.d/{fedora.repo,fedora-modular.repo,fedora-updates.repo,fedora-updates-modular.repo,fedora-updates-testing.repo,fedora-updates-testing-modular.repo}
 ```
 
+### rpmfusion
+
+Fedora官方源内的软件还是太匮乏，什么ffmpeg啦，obs-studio啦这种常见的软件都没有，赶紧整个rpmfusion.
+
+#### 安装基础包
+
+首先安装提供基础配置文件和 GPG 密钥的 `rpmfusion-*.rpm`，咱这里为了避免网络问题，是直接从bfsu镜像下载的基础包。
+
+```bash
+sudo yum install --nogpgcheck https://mirrors.bfsu.edu.cn/rpmfusion/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.bfsu.edu.cn/rpmfusion/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+
+#### 换源
+
+咱这里用的是bfsu镜像。
+
+```bash
+sudo sed -e 's/metalink/#metalink/g' -e 's|#baseurl=http://download1.rpmfusion.org/|baseurl=https://mirrors.bfsu.edu.cn/rpmfusion/|g' -i.bak /etc/yum.repos.d/rpmfusion-*
+```
+
+### 完成
+
 最后运行 `dnf makecache` 生成缓存。
 
 现在即可更新系统啦，`sudo dnf upgrade`
@@ -67,6 +91,10 @@ sudo dnf install fcitx5-chinese-addons kcm-fcitx5 fcitx5-autostart
 Fedora重启后，fcitx5将会被自动启动，接着你可以开始你自己的配置，我这里上一张成品图，具体的配置仍然可以参考[Archwiki](https://wiki.archlinux.org/title/Fcitx5_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))（当然，archwiki中提到的环境变量什么的在Fedora中统统不用加，仅参考词库导入、输入法配置、和自定义皮肤的章节即可）
 
 ![](img/2021-08-05_23-02.png)
+
+## ~~卸载不常用的软件~~
+
+~~虽然咱是国内用户嘛，但是Fedora还是和别的常见发行版一样非常**贴心**地给我们准备了非常多的我并不喜欢的软件，留着也是浪费硬盘空间，赶紧卸了。~~
 
 ## 终端字体
 

@@ -46,8 +46,10 @@ sudo dnf makecache
 | freechat-git            | 1.0.0.3a8304e-1     | 基于[源码](https://github.com/eNkru/freechat/)编译打包       | 基于网页版微信，添加UOS补丁                                  |
 | icalingua               | 2.1.5-1             | 搬运自上游[Release](https://github.com/Clansty/Icalingua/releases/) | electron-qq                                                  |
 | Motrix                  | 1.6.11-1            | 搬运自上游[Release](https://github.com/agalwood/Motrix/releases/) | Motrix                                                       |
+| net.winegame.client     | 0.5.7.2-3           | 基于官网包重打                                               | 修复在Fedora 34上表现出的错误依赖                            |
 | netease-cloud-music     | 1.2.1-3             | 基于[AUR](https://aur.archlinux.org/packages/netease-cloud-music-imflacfix/)二次打包 | 网易云音乐，添加qcef与vlc补丁以修复输入法和高品质音乐播放问题 |
 | purewriter-writer-bin   | 1.3.4-2             | 基于[AUR](https://aur.archlinux.org/packages/purewriter-desktop-bin/)二次打包 | 纯纯写作Desktop                                              |
 | qqmusic-bin             | 1.1.0-3             | 基于[AUR](https://aur.archlinux.org/packages/qqmusic-bin/)二次打包 | QQ音乐                                                       |
+| qtscrcpy                | 1.6.0-1             | 基于[AUR](https://aur.archlinux.org/packages/qtscrcpy/)二次打包 |                                                              |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
