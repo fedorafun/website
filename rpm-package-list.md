@@ -18,6 +18,7 @@ draft: false
 | 百度网盘    | 是             | [https://pan.baidu.com/download](https://pan.baidu.com/download) |
 | wps-office  | 是             | [https://linux.wps.cn/](https://linux.wps.cn/)               |
 | 坚果云      | 是             | [https://www.jianguoyun.com/s/downloads/linux](https://www.jianguoyun.com/s/downloads/linux) |
+| 向日葵      | 是             | [https://sunlogin.oray.com/download/](https://sunlogin.oray.com/download/) |
 
 民间打包：
 
