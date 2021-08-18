@@ -19,6 +19,7 @@ draft: false
 | wps-office  | 是             | [https://linux.wps.cn/](https://linux.wps.cn/)               |
 | 坚果云      | 是             | [https://www.jianguoyun.com/s/downloads/linux](https://www.jianguoyun.com/s/downloads/linux) |
 | 向日葵      | 是             | [https://sunlogin.oray.com/download/](https://sunlogin.oray.com/download/) |
+| 蒲公英      | 是             | [https://pgy.oray.com/download/#server](https://pgy.oray.com/download/#server) |
 
 民间打包：
 
