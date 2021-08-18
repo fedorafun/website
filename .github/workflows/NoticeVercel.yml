@@ -1,0 +1,19 @@
+name: NoticeVercel
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - shell: bash
+      env:
+        VERCEL_API: ${{ secrets.VERCEL_API }}
+      run: |
+        curl -s "$VERCEL_API"
+
