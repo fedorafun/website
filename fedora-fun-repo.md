@@ -37,7 +37,7 @@ sudo dnf makecache
 
 | 包名                    | 版本号              | 来源                                                         | 注                                                           |
 | ----------------------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| com.alibabainc.dingtalk | 1.0.0.203-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
+| com.alibabainc.dingtalk | 1.0.0.214-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
 | com.antutu.benchmark    | 1.0.0.590-1         | 基于[AUR](https://aur.archlinux.org/packages/com.antutu.benchmark/)二次打包 | 安兔兔评测                                                   |
 | com.qq.tim.spark        | 3.3.5.22018spark0-1 | 基于[AUR](https://aur.archlinux.org/packages/com.qq.tim.spark/)二次打包 | wine-tim                                                     |
 | com.qq.weixin.spark     | 3.2.1.127spark0-1   | 基于[AUR](https://aur.archlinux.org/packages/com.qq.weixin.spark/)二次打包 | wine-wechat                                                  |
@@ -53,3 +53,21 @@ sudo dnf makecache
 | qtscrcpy                | 1.6.0-1             | 基于[AUR](https://aur.archlinux.org/packages/qtscrcpy/)二次打包 |                                                              |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
+
+## Q&A环节
+
+Q: 如何确保源内软件的安全性？
+
+A: 目前源内绝大多数软件都是我们手动预处理好直接打包成rpm的，spec中几乎不涉及到处理过程，因此我们无法直接向你证明源内的软件是无毒的，是否要添加我们的源还请自行斟酌。
+
+Q: 打包使用的spec文件是否公开？
+
+A: 由于我们的spec写得过于草率，其中不涉及具体的处理步骤，仅仅是填写了包的基础信息，因此我们暂不打算公开spec文件，如果你确实想要，可以加群向管理索要。
+
+Q: 源的服务器在哪里？下载速度如何？
+
+A: 源目前部署在世纪互联版本的OneDrive上，并在[glitch](https://glitch.com/)部署了[OneManager-php](https://github.com/qkqpttgf/OneManager-php)程序进行直链解析，应当说是在国内的大部分地区都可以获得不错的下载速度。
+
+Q: 我自己打包了某个软件的rpm，可以发布到fedorafun源上嘛？
+
+A: 对于Fedora官方源和rpmfusion中已经有了的软件包，我们不予接收，其他的开源/闭源程序将视情况接收，直接加群并将rpm扔到群文件并@管理即可。
