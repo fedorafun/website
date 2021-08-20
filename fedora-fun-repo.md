@@ -55,7 +55,7 @@ sudo dnf makecache
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
 
-[//]: # (请按照首字母进行排序)
+[//]: # (以上请按照首字母进行排序)
 
 ## Q&A环节
 
