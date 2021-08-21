@@ -53,7 +53,10 @@ sudo dnf makecache
 | qtscrcpy                | 1.6.0-1             | 基于[AUR](https://aur.archlinux.org/packages/qtscrcpy/)二次打包 |                                                              |
 | termius                 |7.18.3               | 基于[AUR](https://aur.archlinux.org/packages/termius/ )二次打包 |图形化ssh软件 |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
-| wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
+| wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁 
+| com.qq.im.deepin        | 9.4.9               | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)           | wine-qq       
+| youku-uos               | 1.0.0               | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)           | 优酷视频，官方版 
+
 
 [//]: # (以上请按照首字母进行排序)
 
