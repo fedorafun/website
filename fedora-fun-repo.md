@@ -31,6 +31,8 @@ skip_if_unavailable=False' > /etc/yum.repos.d/fedorafun.repo"
 sudo dnf makecache
 ```
 
+> 当然，介于Fedora官方源内的东西并不是很全，而我们又不想打包时把所有我们需要的依赖搬进来，你需要添加rpmfusion源，添加方法你可以参考[这里](https://fedora.fun/p/what-you-should-know-as-a-kde-user-of-fedora/#rpmfusion)。
+
 ## Package List
 
 添加了源以后，就是一些`dnf`的常规操作啦，应该难不倒你们，下面是一份**Package List**，请查收
