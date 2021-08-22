@@ -3,7 +3,7 @@ title: 在Fedora下使用deepin-wine来水水群
 description: 什么呀，熬到什么时候腾讯才会把他那个奥运纪念版的LinuxQQ给翻新一下啊？
 slug: run-tencent-tim-with-deepinwine
 timezone: UTC+8
-date: 2021-08-23
+date: 2021-08-22
 image:
 math:
 license:
