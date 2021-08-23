@@ -67,6 +67,18 @@ sudo sed -i "2i export LC_ALL=zh_CN.UTF-8" /opt/apps/${包名}/files/run.sh
 
 在`$HOME/.deepinwine/${容器名}/drive_c/windows/Fonts/`下粘贴或链接所需字体。
 
+### 如何完全卸载
+
+在使用`sudo dnf remove ${包名}`的命令后，我们其实并不能完全卸载Deepin-wine应用。
+
+#### 解压释放出的容器
+
+在`$HOME/.deepinwine/${容器名}`路径下存放了由7z解压出来的容器，你可以手动删除这个目录。
+
+#### 应用产生的缓存
+
+部分Deepin-wine应用会在`$HOME/Documents`下创建一个文件夹来存放应用数据，如`$HOME/Documents/WeChat`，你可以手动删除这个文件夹。
+
 ## 成果图
 
 ![最终成果图](https://pp1.edgepic.com/2021/08/23/637ca0823033647.png)
