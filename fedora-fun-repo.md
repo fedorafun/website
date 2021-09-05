@@ -39,7 +39,7 @@ sudo dnf makecache
 
 | 包名                    | 版本号              | 来源                                                         | 注                                                           |
 | ----------------------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| com.alibabainc.dingtalk | 1.0.0.214-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
+| com.alibabainc.dingtalk | 1.0.0.278-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
 | com.antutu.benchmark    | 1.0.0.590-1         | 基于[AUR](https://aur.archlinux.org/packages/com.antutu.benchmark/)二次打包 | 安兔兔评测                                                   |
 | com.qq.im.deepin        | 9.4.9-0             | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | wine-qq                                                      |
 | com.qq.tim.spark        | 3.3.5.22018spark0-1 | 基于[AUR](https://aur.archlinux.org/packages/com.qq.tim.spark/)二次打包 | wine-tim                                                     |
@@ -55,6 +55,7 @@ sudo dnf makecache
 | purewriter-writer-bin   | 1.3.4-2             | 基于[AUR](https://aur.archlinux.org/packages/purewriter-desktop-bin/)二次打包 | 纯纯写作Desktop                                              |
 | qqmusic-bin             | 1.1.0-3             | 基于[AUR](https://aur.archlinux.org/packages/qqmusic-bin/)二次打包 | QQ音乐                                                       |
 | qtscrcpy                | 1.6.0-1             | 基于[AUR](https://aur.archlinux.org/packages/qtscrcpy/)二次打包 |                                                              |
+| TencentMeeting          | 2.8.0.0-1           | 基于[官网](https://meeting.tencent.com/)二次打包             | 腾讯会议                                                     |
 | termius                 | 7.18.3              | 基于[AUR](https://aur.archlinux.org/packages/termius/ )二次打包 | 图形化ssh软件                                                |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
