@@ -39,12 +39,13 @@ sudo dnf makecache
 
 | 包名                    | 版本号              | 来源                                                         | 注                                                           |
 | ----------------------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| com.alibabainc.dingtalk | 1.0.0.278-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
+| com.alibabainc.dingtalk | 1.0.0.285-1         | 基于[AUR](https://aur.archlinux.org/packages/com.alibabainc.dingtalk/)二次打包 | 钉钉内测                                                     |
 | com.antutu.benchmark    | 1.0.0.590-1         | 基于[AUR](https://aur.archlinux.org/packages/com.antutu.benchmark/)二次打包 | 安兔兔评测                                                   |
 | com.qq.im.deepin        | 9.4.9-0             | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | wine-qq                                                      |
 | com.qq.tim.spark        | 3.3.5.22018spark0-1 | 基于[AUR](https://aur.archlinux.org/packages/com.qq.tim.spark/)二次打包 | wine-tim                                                     |
 | com.qq.weixin.spark     | 3.2.1.127spark0-1   | 基于[AUR](https://aur.archlinux.org/packages/com.qq.weixin.spark/)二次打包 | wine-wechat                                                  |
 | deepin-wine-all-in-one  | 1.0-1               | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | deepin-wine                                                  |
+| fcitx5-98wbx            | 1.0-1               | 群内@249966397完成打包                                       | fcitx5的98五笔支持                                           |
 | fcitx5-pinyin-zhwiki    | 0.2.3.20210804-1    | 基于[Archlinux](https://archlinux.org/packages/community/any/fcitx5-pinyin-zhwiki/)二次打包 | 肥猫维基百万大词库                                           |
 | freechat-git            | 1.0.0.3a8304e-1     | 基于[源码](https://github.com/eNkru/freechat/)编译打包       | 基于网页版微信，添加UOS补丁                                  |
 | icalingua               | 2.2.1-1             | 搬运自上游[Release](https://github.com/Clansty/Icalingua/releases/) | electron-qq                                                  |
@@ -58,6 +59,7 @@ sudo dnf makecache
 | TencentMeeting          | 2.8.0.0-1           | 基于[官网](https://meeting.tencent.com/)二次打包             | 腾讯会议                                                     |
 | termius                 | 7.18.3              | 基于[AUR](https://aur.archlinux.org/packages/termius/ )二次打包 | 图形化ssh软件                                                |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
+| typora                  | 0.11.8-3            | 基于官网包重打                                               | markdwon编辑器                                               |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
 | youku-uos               | 1.0.0-1             | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | 优酷视频，官方版                                             |
 
