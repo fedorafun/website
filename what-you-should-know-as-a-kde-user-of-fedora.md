@@ -98,11 +98,12 @@ Fedora重启后，fcitx5将会被自动启动，接着你可以开始你自己�
 
 ## 终端字体
 
-终端字体真的大力推荐`ttf-monaco`，来自Mac的字体，真的超护眼
+终端字体真的大力推荐`ttf-monaco`，来自Mac的字体，真的超护眼。
+
+添加fedorafun源以后
 
 ```bash
-wget https://storage.zhullyb.top/RPMs/ttf-monaco-6.1-6.noarch.rpm
-sudo dnf install ./ttf-monaco-6.1-6.noarch.rpm
+sudo dnf install ttf-monaco
 ```
 
 ![](img/2021-08-05_23-10.png)
