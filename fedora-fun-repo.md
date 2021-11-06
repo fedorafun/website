@@ -61,7 +61,7 @@ sudo dnf makecache
 | termius                 | 7.18.3              | 基于[AUR](https://aur.archlinux.org/packages/termius/ )二次打包 | 图形化ssh软件                                                |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | typora                  | 0.11.13-3            | 基于官网包重打                                               | markdwon编辑器                                               |
-| tlp-gui |               | 2.1.4.0             | 基于[AUR](https://aur.archlinux.org/packages/tlpui/) 二次打包 | 图形化的tlp设置工具
+| tlp-gui                | 2.1.4.0              | 基于[AUR](https://aur.archlinux.org/packages/tlpui/) 二次打包 | 图形化的tlp设置工具
         |
 | wechat-uos              | 2.0.0-2             | 基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包 | 基于网页版微信，添加UOS补丁                                  |
 | deepin-wine6     |   6-1.0-2          | 群内@1677559完成打包  | deepin-wine6                                                                                               |
