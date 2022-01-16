@@ -47,9 +47,9 @@ sudo dnf makecache
 | com.qq.weixin.spark     | 3.2.1.127spark0-1   | 基于[AUR](https://aur.archlinux.org/packages/com.qq.weixin.spark/)二次打包 | wine-wechat                                                  |
 | deepin-wine-all-in-one  | 1.0-1               | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | deepin-wine                                                  |
 | fcitx5-98wbx            | 1.0-1               | 群内@249966397完成打包                                       | fcitx5的98五笔支持                                           |
-| fcitx5-pinyin-zhwiki    | 0.2.3.20210804-1    | 基于[Archlinux](https://archlinux.org/packages/community/any/fcitx5-pinyin-zhwiki/)二次打包 | 肥猫维基百万大词库                                           |
-| freechat-git            | 1.0.0.3a8304e-1     | 基于[源码](https://github.com/eNkru/freechat/)编译打包       | 基于网页版微信，添加UOS补丁                                  |
-| icalingua               | 2.4.4_Deus_non_vult-1 | 搬运自上游[Release](https://github.com/Clansty/Icalingua/releases/) | electron-qq                                                  |
+| fcitx5-pinyin-zhwiki    | 0.2.3.20210804-1    | 基于[Archlinux](https://archlinux.org/packages/community/any/fcitx5-pinyin-zhwiki/)二次打包 | 肥猫维基百万大词库                                           
+        |
+| icalingua               | 2.4.5 | 搬运自上游[Release](https://github.com/Clansty/Icalingua/releases/) | electron-qq                                                  |
 | Motrix                  | 1.6.11-1            | 搬运自上游[Release](https://github.com/agalwood/Motrix/releases/) | Motrix                                                       |
 | mtxx-bin                | 2.0.0-1             | 基于[AUR](https://aur.archlinux.org/packages/mtxx-bin/)二次打包 | 美图秀秀，原生                                               |
 | net.winegame.client     | 0.5.7.2-3           | 基于官网包重打                                               | 修复在Fedora 34上表现出的错误依赖                            |
@@ -61,7 +61,6 @@ sudo dnf makecache
 | termius                 | 7.27.0-2     | 基于[AUR](https://aur.archlinux.org/packages/termius/ )二次打包 | 图形化ssh软件                                                |
 | ttf-monaco              | 6.1-6               | 基于[AUR](https://aur.archlinux.org/packages/ttf-monaco/)二次打包 | MacOS终端御用字体                                            |
 | typora                  | 1.0.3-1     | 基于官网包重打                                               | markdwon编辑器                                               |
-| tlp-gui                | 2.1.4.0              | 基于[AUR](https://aur.archlinux.org/packages/tlpui/) 二次打包 | 图形化的tlp设置工具|
 | wechat-uos     | 2.1.1-1     |  基于[AUR](https://aur.archlinux.org/packages/wechat-uos/)二次打包    | 基于网页版微信，添加UOS补丁|
 | deepin-wine6  | 6-1.0-2---- | 群内@1677559完成打包---- | deepin-wine6（32位）|
 | youku-uos | 1.0.0-1 | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/) |优酷视频，官方版|
