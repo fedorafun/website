@@ -47,8 +47,7 @@ sudo dnf makecache
 | com.qq.weixin.spark     | 3.2.1.127spark0-1   | 基于[AUR](https://aur.archlinux.org/packages/com.qq.weixin.spark/)二次打包 | wine-wechat                                                  |
 | deepin-wine-all-in-one  | 1.0-1               | 搬运自[「FedoraApp分享空间」](http://v21cesc.ys168.com/)     | deepin-wine                                                  |
 | fcitx5-98wbx            | 1.0-1               | 群内@249966397完成打包                                       | fcitx5的98五笔支持                                           |
-| fcitx5-pinyin-zhwiki    | 0.2.3.20210804-1    | 基于[Archlinux](https://archlinux.org/packages/community/any/fcitx5-pinyin-zhwiki/)二次打包 | 肥猫维基百万大词库                                           
-        |
+| fcitx5-pinyin-zhwiki    | 0.2.3.20210804-1    | 基于[Archlinux](https://archlinux.org/packages/community/any/fcitx5-pinyin-zhwiki/)二次打包 | 肥猫维基百万大词库                                  |
 | icalingua               | 2.4.5-1 | 搬运自上游[Release](https://github.com/Clansty/Icalingua/releases/) | electron-qq                                                  |
 | Motrix                  | 1.6.11-1            | 搬运自上游[Release](https://github.com/agalwood/Motrix/releases/) | Motrix                                                       |
 | mtxx-bin                | 2.0.0-1             | 基于[AUR](https://aur.archlinux.org/packages/mtxx-bin/)二次打包 | 美图秀秀，原生                                               |
