@@ -1,17 +1,15 @@
 ---
 title: "《Fedora i3 生存指南》"
-description: 关于在全都是Gnome用户下的情况下的i3wm生存指南 
+description: 关于在全都是Gnome用户下的情况下的i3wm生存指南
 slug: Fedora-i3-install-and-use
 timezone: UTC+8
-date: 2022-01-25
+date:  2022-01-25
 image: 
 math: 
 license: 
 hidden: false
 comments: true
-draft: false
 ---
-
 
 >第一次探索wm，只能说i3太神奇了
 # Fedora i3 生存指南
