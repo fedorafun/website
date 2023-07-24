@@ -4,7 +4,7 @@ hidden: true
 
 ### 是存放fedorafun博客markdown文件的Github仓库！
 
-fedorafun采用halo框架构建其博客，本仓库存放着[fedora.fun](https://fedora.fun)的文章。每一次push后，我们会收到提醒后便会上传文章。
+fedorafun采用Hugo框架构建其博客，本仓库存放着[fedora.fun](https://fedora.fun)的文章。每一次push后，我们会收到提醒后便会上传文章。
 
 我们当然欢迎你来参与fedorafun的博客编写，这也是我们把这一路径单独独立出来扔Github公开库的初衷。
 
